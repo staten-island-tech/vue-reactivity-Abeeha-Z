@@ -1,11 +1,16 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+
+const cart_list = []
+
+method 
+
 </script>
 
 <template>
- 
+
+
+
 </template>
 
 <style scoped>
-
 </style>

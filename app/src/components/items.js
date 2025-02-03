@@ -2,7 +2,7 @@ const items = [
     {
       name: "Croissant",
       price: 2.50,
-      imageLink: "https://www.example.com/croissant.jpg"
+      imageLink: "https://sourdoughjesha.com/wp-content/uploads/2024/09/sourdough-croissant-photo.jpg"
     },
     {
       name: "Chocolate Chip Cookie",

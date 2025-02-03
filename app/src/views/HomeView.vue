@@ -1,5 +1,5 @@
 <script setup>
-
+import '../components/BakeryStore.vue'
 </script>
 
 <template>

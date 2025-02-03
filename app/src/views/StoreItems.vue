@@ -12,12 +12,6 @@
 </style>
 
 <script setup>
-methods: {
-    function createCards() {
-        CSSContainerRule.insertAdjacentHTMl("beforeend", )
-    }
-}
-
 
 const items = [
   {

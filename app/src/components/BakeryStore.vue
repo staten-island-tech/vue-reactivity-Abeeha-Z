@@ -1,7 +1,8 @@
 <script setup>
-import "./items"
+import "./items.js"
 
 const item = defineprops("name", "price", "imageLink");
+
 </script>
 
 <template>

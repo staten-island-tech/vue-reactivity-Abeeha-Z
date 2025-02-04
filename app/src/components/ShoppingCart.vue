@@ -1,6 +1,6 @@
 <script setup>
 
-const cart_list = []
+const cart = reactiveArray
 
 method 
 

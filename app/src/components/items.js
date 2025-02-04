@@ -2,12 +2,12 @@ const items = [
     {
       name: "Croissant",
       price: 2.50,
-      imageLink: "https://sourdoughjesha.com/wp-content/uploads/2024/09/sourdough-croissant-photo.jpg"
+      imageLink: "https://cdn.pixabay.com/photo/2016/03/27/21/59/bread-1284438_640.jpg"
     },
     {
       name: "Chocolate Chip Cookie",
       price: 1.75,
-      imageLink: "https://www.example.com/chocolate-chip-cookie.jpg"
+      imageLink: "https://cdn.pixabay.com/photo/2014/04/02/17/06/cookie-307960_640.png"
     },
     {
       name: "Cinnamon Roll",

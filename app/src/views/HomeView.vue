@@ -1,9 +1,9 @@
 <script setup>
-import '../components/BakeryStore.vue'
+import BakeryStore from '@/components/BakeryStore.vue'
 </script>
 
 <template>
   <main>
-    
+    <BakeryStore />
   </main>
 </template>

@@ -1,22 +1,15 @@
 <script setup>
-import "./items.js"
-
-const item = defineprops("name", "price", "imageLink");
-
+import items from './items'
 </script>
 
 <template>
-    <div v-for="item in items" :key="item.name">
-    <img src=item.imageLink>    
+  <div v-for="item in items" :key="item.name">
+    <img :src="item.imageLink" class="w-32 h-48" />
     <h2>
-        {{ item.name }}
+      {{ item.name }}
     </h2>
-    <p> {{  item.price  }}</p>
-    </div>
+    <p>{{ item.price }}</p>
+  </div>
 </template>
 
-<style scoped>
-</style>
-
-
-
+<style scoped></style>

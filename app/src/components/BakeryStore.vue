@@ -3,13 +3,15 @@ import items from './items'
 </script>
 
 <template>
-  <div v-for="item in items" :key="item.name">
+<div class="flex flex-wrap m-2 p-2 w-full h-auto ">
+  <div class="w-32 text-wrap border-black border-2" v-for="item in items" :key="item.name">
     <img :src="item.imageLink" class="w-32 h-48" />
     <h2>
       {{ item.name }}
     </h2>
     <p>{{ item.price }}</p>
   </div>
+</div>
 </template>
 
 <style scoped></style>

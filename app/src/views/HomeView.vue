@@ -3,7 +3,7 @@ import BakeryStore from '@/components/BakeryStore.vue'
 </script>
 
 <template>
-  <main>
-    <BakeryStore />
-  </main>
+    <BakeryStore/>
+    <!-- <ShoppingCart/> -->
+     <!-- <Header/> -->
 </template>

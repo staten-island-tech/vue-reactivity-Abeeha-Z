@@ -10,8 +10,8 @@ import ShoppingCart from './ShoppingCart.vue'
       <h2>
         {{ item.name }}
       </h2>
-      <p>{{ item.price }}</p>
-      <button @click="cart_items.push(item)">Add to Cart</button>
+      <p>${{ item.price }}</p>
+      <button class="border-black border-1" @click="cart_items.push(item)">Add to Cart</button>
     </div>
   </div>
 </template>

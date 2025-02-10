@@ -5,6 +5,7 @@ const cart_items = []
 
 <template>
     <div v-for="cart_item in cart_items>
+    
     </itemcard>
     </div>
 </template>

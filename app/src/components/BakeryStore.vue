@@ -1,11 +1,22 @@
 <script setup>
 import items from './items'
-import ShoppingCart from './ShoppingCart.vue';
+import ShoppingCart from './ShoppingCart.vue'
+import { ref } from 'vue'
+
+const cart_items = ref([])
+
+function add_toCart(item) {
+  cart_items.value.push(item)
+}
 </script>
 
 <template>
   <div class="flex flex-wrap m-2 p-2 w-full h-auto">
-    <div class="w-48 text-wrap border-black border-2 m-3 p-3" v-for="item in items" :key="item.name">
+    <div
+      class="w-48 text-wrap border-black border-2 m-3 p-3"
+      v-for="item in items"
+      :key="item.name"
+    >
       <img :src="item.imageLink" class="w-32 h-48" />
       <h2>
         {{ item.name }}
@@ -14,6 +25,7 @@ import ShoppingCart from './ShoppingCart.vue';
       <button class="border-black border-1" @click="add_toCart(item)">Add to Cart</button>
     </div>
   </div>
+  <ShoppingCart :cart_item="cart_item" />
 </template>
 
 <style scoped></style>

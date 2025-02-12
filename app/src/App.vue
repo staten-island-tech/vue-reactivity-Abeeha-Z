@@ -5,7 +5,7 @@ import HomeView from './views/HomeView.vue'
 </script>
 
 <template>
-  <HomeView class="w-full"/>
+  <HomeView />
 </template>
 
 <style scoped></style>

@@ -2,72 +2,86 @@ const items = [
   {
     name: 'Croissant',
     price: 2.5,
-    imageLink: 'https://cdn.pixabay.com/photo/2016/03/27/21/59/bread-1284438_640.jpg',
+    imageLink:
+      'https://images.pexels.com/photos/3806365/pexels-photo-3806365.jpeg?auto=compress&cs=tinysrgb&w=800',
   },
   {
-    name: 'Chocolate Chip Cookie',
-    price: 1.75,
-    imageLink: 'https://cdn.pixabay.com/photo/2014/04/02/17/06/cookie-307960_640.png',
+    name: 'Pancakes',
+    price: 5.0,
+    imageLink:
+      'https://images.pexels.com/photos/5840086/pexels-photo-5840086.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
     name: 'Cinnamon Roll',
     price: 3.0,
-    imageLink: 'https://cdn.pixabay.com/photo/2024/05/11/08/51/cinnamon-roll-8754326_1280.png',
+    imageLink:
+      'https://images.pexels.com/photos/27098506/pexels-photo-27098506/free-photo-of-sweet-cake-on-plate.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
-    name: 'Brioche Bun',
+    name: 'Cheesecake',
     price: 2.0,
-    imageLink: 'https://cdn.pixabay.com/photo/2015/01/10/16/01/galette-des-rois-595438_1280.jpg',
+    imageLink:
+      'https://images.pexels.com/photos/4529016/pexels-photo-4529016.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
     name: 'Lemon Pound Cake',
     price: 4.5,
-    imageLink: 'https://cdn.pixabay.com/photo/2018/01/04/11/40/cake-3060458_1280.jpg',
+    imageLink:
+      'https://images.pexels.com/photos/8876154/pexels-photo-8876154.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
-    name: 'Sourdough Bread',
+    name: 'Avocado Toast',
     price: 5.0,
-    imageLink: 'https://cdn.pixabay.com/photo/2022/03/01/20/23/bread-7041958_1280.jpg',
+    imageLink:
+      'https://media.istockphoto.com/id/1311507085/photo/avocado-toast-with-eggs-and-roasted-tomatoes.jpg?b=1&s=612x612&w=0&k=20&c=-5JkeVK4K4qzbbsa_4ngyjPxGx4ZekhtG4fskdMxhwo=',
   },
   {
     name: 'Apple Pie',
-    price: 3.25,
-    imageLink: 'https://cdn.pixabay.com/photo/2013/02/10/14/36/apple-pie-80102_1280.jpg',
+    price: 3.5,
+    imageLink:
+      'https://media.istockphoto.com/id/119689299/photo/foot.jpg?b=1&s=612x612&w=0&k=20&c=65vhxxmvvEr4YWzW9wDSiJMDfxzZ9RYgT9pPXeIbyu0=',
   },
   {
-    name: 'Blueberry Muffin',
-    price: 2.75,
-    imageLink: 'https://cdn.pixabay.com/photo/2015/12/28/21/39/vegan-1112016_1280.jpg',
+    name: 'Fruit Tart',
+    price: 4.5,
+    imageLink:
+      'https://images.pexels.com/photos/461431/pexels-photo-461431.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
-    name: 'Vanilla Cupcake',
-    price: 2.0,
-    imageLink: 'https://cdn.pixabay.com/photo/2020/03/18/15/49/cupcakes-4944589_1280.jpg',
+    name: 'Waffles',
+    price: 5.0,
+    imageLink:
+      'https://images.pexels.com/photos/29893440/pexels-photo-29893440/free-photo-of-delicious-berry-topped-waffles-on-breakfast-table.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
     name: 'Raisin Scone',
     price: 3.5,
-    imageLink: 'https://cdn.pixabay.com/photo/2019/06/20/12/09/strawberry-4286963_1280.jpg',
+    imageLink:
+      'https://images.pexels.com/photos/8954801/pexels-photo-8954801.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
-    name: 'Pecan Pie',
+    name: 'Lemon Pie',
     price: 5.0,
-    imageLink: 'https://cdn.pixabay.com/photo/2016/10/13/05/53/pecan-1736875_1280.jpg',
+    imageLink:
+      'https://images.pexels.com/photos/17283932/pexels-photo-17283932/free-photo-of-sweet-cake-on-plate.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
     name: 'Chocolate Éclair',
     price: 3.25,
-    imageLink: 'https://cdn.pixabay.com/photo/2022/01/14/15/04/eclairs-6937565_1280.jpg',
+    imageLink:
+      'https://images.pexels.com/photos/14822891/pexels-photo-14822891.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
     name: 'Chocolate Croissant',
     price: 3.5,
-    imageLink: 'https://cdn.pixabay.com/photo/2021/12/24/17/45/breakfast-6891591_1280.jpg',
+    imageLink:
+      'https://images.pexels.com/photos/30666903/pexels-photo-30666903/free-photo-of-delicious-chocolate-topped-croissant-on-wooden-table.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
-    name: 'Pumpkin Spice Muffin',
-    price: 3.0,
-    imageLink: 'https://cdn.pixabay.com/photo/2017/08/06/04/16/cupcake-2588646_1280.jpg',
+    name: 'Sandwich',
+    price: 4.0,
+    imageLink:
+      'https://media.istockphoto.com/id/1127940785/photo/stacked-vegetarian-sandwiches-of-arugula-artichoke-sun-dried-tomato-pesto.jpg?b=1&s=612x612&w=0&k=20&c=IyLoG78B6juo8AKYZMf4sA1JMCgCMfL2ZUQQ0fxNTgc=',
   },
 ]
 

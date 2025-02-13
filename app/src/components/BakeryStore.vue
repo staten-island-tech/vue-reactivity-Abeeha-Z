@@ -11,21 +11,23 @@ function add_toCart(item) {
 </script>
 
 <template>
-  <div class="flex flex-wrap m-2 p-2 w-full h-auto">
+  <div class="flex flex-wrap m-5 p-2 w-4/5 h-auto">
     <div
-      class="w-48 text-wrap border-black border-2 m-3 p-3"
+      class="w-60 text-lg text-wrap border-gray-300 border-2 m-2 p-2 text-center bg-red-100"
       v-for="item in items"
       :key="item.name"
     >
-      <img :src="item.imageLink" class="w-32 h-48" />
+      <img :src="item.imageLink" class="h-60 w-60 m-bottom-2" />
       <h2>
         {{ item.name }}
       </h2>
-      <p>${{ item.price }}</p>
-      <button class="border-black border-1" @click="add_toCart(item)">Add to Cart</button>
+      <p>${{ item.price.toFixed(2) }}</p>
+      <button class="rounded p-2 m-2 text-sm border-black border-1" @click="add_toCart(item)">
+        Add to Cart
+      </button>
     </div>
   </div>
-  <ShoppingCart :cart_item="cart_item" />
+  <ShoppingCart :cart_items="cart_items" />
 </template>
 
 <style scoped></style>

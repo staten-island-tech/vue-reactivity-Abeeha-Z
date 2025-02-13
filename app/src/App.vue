@@ -4,8 +4,8 @@ import './views/HomeView.vue'
 import HomeView from './views/HomeView.vue'
 </script>
 
-<template>
-  <HomeView />
+<template class="w-full">
+  <HomeView class="w-full" />
 </template>
 
 <style scoped></style>
